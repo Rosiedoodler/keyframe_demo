@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0 3%;
+	}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 1rem 0;
+	}
+p{
+	margin: 0 0 .5rem 0;
+	}
+
+/* My Styles */
+
+	.anim{
+
+		background: #09c;
+		width: 500px;
+		height: 300px;
+		border: solid #000 1px;
+		float: left;
+		margin: 0 1rem 1rem 0;
+		overflow: hidden;
+
+	}
+
+	.anim__headline{
+
+		color: #ff9;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.25rem;
+		font-weight: bold;
+		position: relative;
+		top: 50px;
+		left: 50px;
+		animation: h2-stuff 3s ease 0s;
+
+	}
+
+	.anim__image{
+
+		position:relative;
+		top: 50px;
+		left: 250px;
+		animation: h2-stuff 3s ease 2s;
+
+	}
+
+	@keyframes h2-stuff{
+
+		from {
+
+			top: 50px;
+
+		}
+
+		to{
+
+			top: 250px;
+
+		}
+
+	}
